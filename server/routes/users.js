@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
+const userController = require('../controllers/userController');
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+// Route to handle form submission
+router.post('/subscribe', userController.subscribe);
+
+// Optionally, add a route to list all subscribers
+router.get('/subscribers', userController.listSubscribers);
 
 module.exports = router;
