@@ -31,7 +31,7 @@ This project is a full-stack web application that allows users to subscribe to a
    ```bash
    git clone https://github.com/your-username/newsletter-app.git
    cd newsletter-app
-  ```
+   ```
 2. **Install Fronend Dependencies**
 
    ```bash
