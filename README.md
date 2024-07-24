@@ -37,7 +37,7 @@ This project is a full-stack web application that allows users to subscribe to a
    ```bash
    cd ../client
    npm install
-  ```
+   ```
 
 ## Configure Environmental Variables
 
